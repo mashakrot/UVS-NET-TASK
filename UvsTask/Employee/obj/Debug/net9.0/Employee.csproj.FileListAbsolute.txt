@@ -1,0 +1,5 @@
+C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\Employee\obj\Debug\net9.0\Employee.csproj.AssemblyReference.cache
+C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\Employee\obj\Debug\net9.0\Employee.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\Employee\obj\Debug\net9.0\Employee.AssemblyInfoInputs.cache
+C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\Employee\obj\Debug\net9.0\Employee.AssemblyInfo.cs
+C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\Employee\obj\Debug\net9.0\Employee.csproj.CoreCompileInputs.cache

@@ -114,3 +114,4 @@ C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\DatabaseSchema\obj\D
 C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\DatabaseSchema\obj\Debug\net6.0\DatabaseSchema.pdb
 C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\DatabaseSchema\obj\Debug\net6.0\DatabaseSchema.genruntimeconfig.cache
 C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\DatabaseSchema\obj\Debug\net6.0\ref\DatabaseSchema.dll
+C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\DatabaseSchema\obj\Debug\net6.0\DatabaseSchema.sourcelink.json

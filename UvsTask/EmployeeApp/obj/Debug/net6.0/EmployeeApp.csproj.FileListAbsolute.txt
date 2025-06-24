@@ -57,3 +57,5 @@ C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\EmployeeApp\obj\Debu
 C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\EmployeeApp\obj\Debug\net6.0\EmployeeApp.pdb
 C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\EmployeeApp\obj\Debug\net6.0\EmployeeApp.genruntimeconfig.cache
 C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\EmployeeApp\obj\Debug\net6.0\ref\EmployeeApp.dll
+C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\EmployeeApp\bin\Debug\net6.0\DotNetEnv.dll
+C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\EmployeeApp\bin\Debug\net6.0\Sprache.dll

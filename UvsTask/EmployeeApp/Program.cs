@@ -6,28 +6,47 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using EmployeeApp.Data;
 using EmployeeApp.Services;
+using DotNetEnv;
+
 
 namespace EmployeeApp
 {
-    public class Program
+    class Program
     {
         public static async Task Main(string[] args)
         {
+            Env.Load("../../UvsTask/.env");
+
+            var DbHost = Environment.GetEnvironmentVariable("UvsTaskHost")
+            ?? throw new InvalidOperationException("You must set the UvsTaskHost environment variable");
+            var  DbPort = Environment.GetEnvironmentVariable("UvsTaskPort") 
+            ?? throw new InvalidOperationException("You must set the UvsTaskPort environment variable");
+            var DbUser = Environment.GetEnvironmentVariable("UvsTaskUser") 
+            ?? throw new InvalidOperationException("You must set the UvsTaskUser environment variable");
+            var DbPassword = Environment.GetEnvironmentVariable("UvsTaskPassword") 
+            ?? throw new InvalidOperationException("You must set the UvsTaskPassword environment variable");
+            var DbName = Environment.GetEnvironmentVariable("UvsTaskDatabase") 
+            ?? throw new InvalidOperationException("You must set the UvsTaskDatabase environment variable");
+
             var builder = Host.CreateDefaultBuilder(args)
                 .ConfigureLogging(logging =>
                 {
+                    Console.WriteLine($"Host: {DbHost}, Port: {DbPort}, User: {DbUser}, DB: {DbName}");
+
                     logging.ClearProviders();
                     logging.AddConsole();
 
-                    if (OperatingSystem.IsWindows())
-                    {
-                        logging.AddEventLog();
-                    }
+                    // if (OperatingSystem.IsWindows())
+                    // {
+                    //     logging.AddEventLog();
+                    // }
                 })
                 .ConfigureServices((context, services) =>
                 {
+                    var connectionString = $"Host={DbHost};Port={DbPort};Username={DbUser};Password={DbPassword};Database={DbName}";
+
                     services.AddDbContext<EmployeeContext>(options =>
-                        options.UseNpgsql("Host=localhost;Port=5432;Username=postgres;Password=postgres;Database=employee_db"));
+                        options.UseNpgsql(connectionString));
 
                     services.AddScoped<EmployeeService>();
                 });

@@ -3,15 +3,21 @@ using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 using Npgsql;
+using DotNetEnv;
 
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 // using DatabaseSchema.Services;
 
-namespace Test
+namespace DatabaseSchema
 {
     class Program
     {
+        static Program()
+        {
+            Env.Load("../../UvsTask/.env");
+        }
+
         private static readonly string Password = Environment.GetEnvironmentVariable("UvsTaskPassword")
             ?? throw new InvalidOperationException("You must set the UvsTaskPassword environment variable");
         private static readonly string Database = Environment.GetEnvironmentVariable("UvsTaskDatabase")

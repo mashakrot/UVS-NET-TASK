@@ -6971,11 +6971,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marija\\Downloads\\UVS-NET-TASK\\UVS-NET-TASK\\UvsTask\\DatabaseSchema\\DatabaseSchema.csproj",
+      "projectUniqueName": "C:\\Users\\Marija\\Downloads\\UVS-NET-TASK\\UvsTask\\DatabaseSchema\\DatabaseSchema.csproj",
       "projectName": "DatabaseSchema",
-      "projectPath": "C:\\Users\\Marija\\Downloads\\UVS-NET-TASK\\UVS-NET-TASK\\UvsTask\\DatabaseSchema\\DatabaseSchema.csproj",
+      "projectPath": "C:\\Users\\Marija\\Downloads\\UVS-NET-TASK\\UvsTask\\DatabaseSchema\\DatabaseSchema.csproj",
       "packagesPath": "C:\\Users\\Marija\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marija\\Downloads\\UVS-NET-TASK\\UVS-NET-TASK\\UvsTask\\DatabaseSchema\\obj\\",
+      "outputPath": "C:\\Users\\Marija\\Downloads\\UVS-NET-TASK\\UvsTask\\DatabaseSchema\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

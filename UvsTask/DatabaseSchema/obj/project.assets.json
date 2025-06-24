@@ -840,10 +840,13 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "Npgsql/6.0.3": {
+      "Npgsql/9.0.3": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "System.Diagnostics.DiagnosticSource": "8.0.1",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Json": "8.0.5"
         },
         "compile": {
           "lib/net6.0/Npgsql.dll": {
@@ -854,21 +857,6 @@
           "lib/net6.0/Npgsql.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "Npgsql.EntityFrameworkCore.PostgreSQL/6.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.0",
-          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.0",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
-          "Npgsql": "6.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
@@ -3338,40 +3326,20 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Npgsql/6.0.3": {
-      "sha512": "yt/3XFRhHsJ01a4+qHM9+0mtitQ3DY2wJLyGP9vtvZa1cB1nSAw762GJGdSX3Bbc7wZKzeo4dc4drD3yvQe7gA==",
+    "Npgsql/9.0.3": {
+      "sha512": "tPvY61CxOAWxNsKLEBg+oR646X4Bc8UmyQ/tJszL/7mEmIXQnnBhVJZrZEEUv0Bstu0mEsHZD5At3EO8zQRAYw==",
       "type": "package",
-      "path": "npgsql/6.0.3",
+      "path": "npgsql/9.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "lib/net5.0/Npgsql.dll",
-        "lib/net5.0/Npgsql.xml",
         "lib/net6.0/Npgsql.dll",
         "lib/net6.0/Npgsql.xml",
-        "lib/netcoreapp3.1/Npgsql.dll",
-        "lib/netcoreapp3.1/Npgsql.xml",
-        "lib/netstandard2.0/Npgsql.dll",
-        "lib/netstandard2.0/Npgsql.xml",
-        "lib/netstandard2.1/Npgsql.dll",
-        "lib/netstandard2.1/Npgsql.xml",
-        "npgsql.6.0.3.nupkg.sha512",
+        "lib/net8.0/Npgsql.dll",
+        "lib/net8.0/Npgsql.xml",
+        "npgsql.9.0.3.nupkg.sha512",
         "npgsql.nuspec",
-        "postgresql.png"
-      ]
-    },
-    "Npgsql.EntityFrameworkCore.PostgreSQL/6.0.0": {
-      "sha512": "3laelDbRuri90YL+RAezn1VWEkrzaYkKq8OJ2vzAp6In9c8UqkaFMidIHyS9ipIerrv5Qo+mU55+8s5mrCiAvg==",
-      "type": "package",
-      "path": "npgsql.entityframeworkcore.postgresql/6.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
-        "npgsql.entityframeworkcore.postgresql.6.0.0.nupkg.sha512",
-        "npgsql.entityframeworkcore.postgresql.nuspec",
         "postgresql.png"
       ]
     },
@@ -6993,8 +6961,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 6.0.0",
       "Microsoft.Extensions.DependencyInjection >= 9.0.6",
       "Microsoft.Extensions.Hosting >= 9.0.6",
-      "Npgsql >= 6.0.3",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.0"
+      "Npgsql >= 9.0.3"
     ]
   },
   "packageFolders": {
@@ -7071,11 +7038,7 @@
           },
           "Npgsql": {
             "target": "Package",
-            "version": "[6.0.3, )"
-          },
-          "Npgsql.EntityFrameworkCore.PostgreSQL": {
-            "target": "Package",
-            "version": "[6.0.0, )"
+            "version": "[9.0.3, )"
           }
         },
         "imports": [
@@ -7097,16 +7060,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Error",
-      "message": "Warning As Error: Package 'Npgsql' 6.0.3 has a known high severity vulnerability, https://github.com/advisories/GHSA-x9vc-6hfv-hg8c",
-      "libraryId": "Npgsql",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

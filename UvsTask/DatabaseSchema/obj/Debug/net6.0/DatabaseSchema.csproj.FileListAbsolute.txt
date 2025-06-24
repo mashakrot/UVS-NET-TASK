@@ -97,7 +97,6 @@ C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\DatabaseSchema\bin\D
 C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\DatabaseSchema\bin\Debug\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\DatabaseSchema\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\DatabaseSchema\bin\Debug\net6.0\Npgsql.dll
-C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\DatabaseSchema\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\DatabaseSchema\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\DatabaseSchema\bin\Debug\net6.0\System.Diagnostics.EventLog.dll
 C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\DatabaseSchema\bin\Debug\net6.0\System.IO.Pipelines.dll
@@ -115,3 +114,5 @@ C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\DatabaseSchema\obj\D
 C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\DatabaseSchema\obj\Debug\net6.0\DatabaseSchema.genruntimeconfig.cache
 C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\DatabaseSchema\obj\Debug\net6.0\ref\DatabaseSchema.dll
 C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\DatabaseSchema\obj\Debug\net6.0\DatabaseSchema.sourcelink.json
+C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\DatabaseSchema\bin\Debug\net6.0\DotNetEnv.dll
+C:\Users\Marija\Downloads\UVS-NET-TASK\UVS-NET-TASK\UvsTask\DatabaseSchema\bin\Debug\net6.0\Sprache.dll
